@@ -1,0 +1,228 @@
+.body {
+  margin: 0;
+  padding: 0;
+}
+
+.backg {
+  background-color: #F5FFFA;
+  background-size: cover;
+}
+.header {
+    text-align: center;
+    background: white;
+    color: black;
+    font-size: 30px;
+}
+
+/*Styling for Carousel*/
+.slider {
+    width: 40%;
+    height: 300px;
+    margin: 20px auto;
+    box-sizing: border-box;
+    overflow: hidden;
+    box-shadow: 5px 5px 10px grey;
+
+  }
+
+  img {
+    width: 100%;
+    height: 100%;
+    animation: ani 2s linear;
+    }
+
+    .body1 {
+      text-align: center;
+    }
+
+
+    .header2 {
+        text-align: center;
+        font-family: "permanent marker";
+        text-decoration: underline;
+    }
+
+    .container {
+        width: 100%;
+        margin: 2rem auto;
+    }
+
+    .recipes {
+        display: grid;
+        grid-template-columns: repeat(9, 1fr);
+        grid-template-rows: repeat(9, 5vw);
+        grid-row-gap: 50px;
+        grid-column-gap: 50px;
+    }
+
+    .recipes__img {
+        width: 80%;
+        height: 100%;
+        object-fit: cover;
+        display: block;
+        margin: 0 auto; 
+      }
+
+    .recipes__item--1 {
+        grid-column-start: 1;
+        grid-column-end: 4;
+        grid-row-start: 1;
+        grid-row-end: 4;
+    }
+
+    .recipes__item--2 {
+        grid-column-start: 4;
+        grid-column-end: 7;
+        grid-row-start: 1;
+        grid-row-end: 4;
+    }
+
+    .recipes__item--3 {
+        grid-column-start: 7;
+        grid-column-end: 10;
+        grid-row-start: 1;
+        grid-row-end: 4;
+    }
+
+    .recipes__item--4 {
+        grid-column-start: 1;
+        grid-column-end: 4;
+        grid-row-start: 4;
+        grid-row-end: 7;
+    }
+
+    .recipes__item--5 {
+        grid-column-start: 4;
+        grid-column-end: 7;
+        grid-row-start: 4;
+        grid-row-end: 7;
+    }
+
+    .recipes__item--6 {
+        grid-column-start: 7;
+        grid-column-end: 10;
+        grid-row-start: 4;
+        grid-row-end: 7;
+    }
+
+    .recipes__item--7 {
+        grid-column-start: 1;
+        grid-column-end: 4;
+        grid-row-start: 7;
+        grid-row-end: 10;
+    }
+
+    .recipes__item--8 {
+        grid-column-start: 4;
+        grid-column-end: 7;
+        grid-row-start: 7;
+        grid-row-end: 10;
+    }
+
+    .recipes__item--9 {
+        grid-column-start: 7;
+        grid-column-end: 10;
+        grid-row-start: 7;
+        grid-row-end: 10;
+    }
+
+    .aimage {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      width: 30%;
+      height: 70%;
+    }
+
+    .rectitle {
+      text-align: center
+    }
+    
+    .recimg {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 350px;
+        height: 350px;
+        border-radius: 25px;
+    }
+    .recs {
+        display: block;
+    }
+
+    .header3 {
+      text-decoration: underline;
+    }
+
+    .container1 {
+      width: 100%;
+  }
+
+  .essentials {
+      display: grid;
+      grid-template-columns: repeat(9, 1fr);
+      grid-template-rows: repeat(6, 5vw);
+      row-gap: 50px;
+      column-gap: 50px;
+  }
+
+  .essentials__img {
+      width: 80%;
+      height: 100%;
+      object-fit: cover;
+      display: block;
+      margin: 0 auto; 
+    }
+
+    .essdesc {
+      font-size: 15px;
+      font-weight: bold;
+    }
+
+  .essentials__item--1 {
+      grid-column-start: 1;
+      grid-column-end: 4;
+      grid-row-start: 1;
+      grid-row-end: 4;
+  }
+
+  .essentials__item--2 {
+      grid-column-start: 4;
+      grid-column-end: 7;
+      grid-row-start: 1;
+      grid-row-end: 4;
+  }
+
+  .essentials__item--3 {
+      grid-column-start: 7;
+      grid-column-end: 10;
+      grid-row-start: 1;
+      grid-row-end: 4;
+  }
+
+  .essentials__item--4 {
+      grid-column-start: 1;
+      grid-column-end: 4;
+      grid-row-start: 4;
+      grid-row-end: 7;
+  }
+
+  .essentials__item--5 {
+      grid-column-start: 4;
+      grid-column-end: 7;
+      grid-row-start: 4;
+      grid-row-end: 7;
+  }
+
+  .essentials__item--6 {
+      grid-column-start: 7;
+      grid-column-end: 10;
+      grid-row-start: 4;
+      grid-row-end: 7;
+  }
+
+  .form {
+    text-align: center;
+    background-color: white;
+    color: black;
+  }
