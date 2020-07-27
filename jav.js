@@ -1,4 +1,4 @@
-var images = ['b1.jpg', 'b2.jpg', 'b3.jpg',];
+var images = ['html/b1.jpg', 'html/b2.jpg', 'html/b3.jpg',];
 
     var x = 0;
 
